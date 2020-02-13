@@ -1,0 +1,95 @@
+{
+  "amb": {
+    "baselinelimit": "50 #kilometer", 
+    "cutoff": "14", 
+    "fcbtype": "fcbclk # fcbepoch/fcbclk", 
+    "fixcomb": "raw", 
+    "fixmode": "lambda", 
+    "hold": [
+      "30", 
+      "1800"
+    ], 
+    "minseccommon": "900", 
+    "nlmaxdel": [
+      "2", 
+      "2", 
+      "2", 
+      "2"
+    ], 
+    "nlmaxdelcomment": "GREC", 
+    "nlmaxdev": "0.3", 
+    "nlminsav": [
+      "5#G", 
+      "0#R", 
+      "4#E", 
+      "4#C"
+    ], 
+    "nlratio": "3.0", 
+    "rawseccommon": "0", 
+    "wlmaxdev": "0.2"
+  }, 
+  "clk": {
+    "refpoint": "APC"
+  }, 
+  "codedcb": "hist # hist/codp", 
+  "common": {
+    "ambmode": "CONTINUES # option(CONTINUES|INSTANTANEOUS|HOLD)", 
+    "clktype": "CLK_POSTBRD", 
+    "ephstream": "58.49.58.150:17001", 
+    "freqcomb": "GPS:L1+L2 GLS:G1+G2 GAL:E1+E5a BDS:B1+B2b", 
+    "freqused": "GPS:L1_L2 GLS:G1_G2 GAL:E1_E5a BDS:B1_B2", 
+    "interval": " 30", 
+    "ionmodel": "ION_NONE # ION_NONE ION_EST", 
+    "ionpri": "ION_NONE # ION_RTBRD ION_POSTBRD ION_RTBRD ION_RTPRE ION_NONE", 
+    "noisecoef": " 1000000 10000000", 
+    "oacstream": "59.172.4.52:8003", 
+    "obscomb": "SF #option(IF|SF|RAW)", 
+    "obsstream": "58.49.94.210:9004", 
+    "obsused": "PHASE CODE", 
+    "orbitcfg": "./orbit.cfg", 
+    "orbitmutex": "./mutex.orb", 
+    "orbtype": "ORB_POSTBRD", 
+    "pcoest": "false", 
+    "refpoint": "APC_ITRF #option(APC_ITRF|CoM_ITRF)", 
+    "threads": "1", 
+    "time": " 2015 11 21 3 0 0 75600", 
+    "tracelevel": "0 # 0:LEVEL_IO 1:LEVEL_GNSS 2:LEVEL_FRAME 3:LEVEL_ALGO", 
+    "ztdmodel": "ZTD_NONE #constant in 60 minutes ZTD_NONE"
+  }, 
+  "extnl": {
+    "commontime": "30", 
+    "wltimelimit": "3600"
+  }, 
+  "files": "tables_rec.json", 
+  "nrtk": {
+    "ambmask": "AMB_FIX # option(AMB_EST | AMB_WLFIX | AMB_FIX)", 
+    "atomserver": [
+      "127.0.0.1:8090"
+    ], 
+    "nrtkport": "9003", 
+    "web-connector": "58.49.94.210:8090/VrsProject/vrs/data/"
+  }, 
+  "path": {
+    "broad": "./brdm/brdm-DDD-0.-YY-p", 
+    "obs": "./obs/", 
+    "output": "results", 
+    "precise": "igs", 
+    "qclog": "qc", 
+    "trace": "trace ## temporary files"
+  }, 
+  "threshold": {
+    "dia": "batch HOLD ## batch for CLK,search for PPP/RTK", 
+    "dia_batch-limit": "3.6 1.0## will detect the slip according to the w-test and its current max-esig(CLK)", 
+    "dia_search-limit": "0.3 0.3 ## detect slip by esig when the dimension of the matrix is small(PPP/RTK)", 
+    "igg": "6.5 3.5## will decrease the weight according to the residual ", 
+    "turboedit": "2.0 4.0 1200 1.0 ## lg lw dt dtec"
+  }, 
+  "vrs": {
+    "atom-connector": "58.49.58.150:9014", 
+    "atom-timeout": "600", 
+    "grid-division": "0.05 ## division in degree", 
+    "monitor-port": "5000", 
+    "vrs-connector": "root:123@:6035", 
+    "web-connector": "58.49.94.210:8090/VrsProject/vrs/data/"
+  }
+}

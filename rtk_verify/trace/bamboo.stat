@@ -1,0 +1,9 @@
+nsatclk(0),nsitclk(2),nxyz(1),ntrop(0),nion(0),nf(1)
+infs(131,72),Hk(62,72)
+amnum(260),pmnum(5)
+index                  param-name   isat isit      std      process-std      value 
+000                   RECCLK_G_000   -1    0    9000.0000    9000.0000       0.0000
+001                     STAP_000_X   -1    0   50000.0000 2738612.7875       0.0000
+002                     STAP_000_Y   -1    0   50000.0000 2738612.7875       0.0000
+003                     STAP_000_Z   -1    0   50000.0000 2738612.7875       0.0000
+np(4),ns(0),nps(4),nc(0),imtx(4)

@@ -1,0 +1,86 @@
+{
+  "files": {
+    "antnam": [
+      "/home/jtao/work/work/rtk/bboConfigures/tables/antnam", 
+      "0"
+    ], 
+    "antpcv": [
+      "/home/jtao/work/work/rtk/bboConfigures/tables/igs14_bd3.atx", 
+      "0"
+    ], 
+    "baselines": [
+      " line_ite", 
+      "0"
+    ], 
+    "corrDCB": [
+      "/home/jtao/work/work/rtk/bboConfigures/tables/DLR0MGXFIN_20181820000_03L_07D_DCB.BSX", 
+      "0"
+    ], 
+    "corrp1c1": [
+      "/home/jtao/work/work/rtk/bboConfigures/tables/p1c1bias.hist", 
+      "0"
+    ], 
+    "database": [
+      "sqlconfig.json", 
+      "0"
+    ], 
+    "gptgrd": [
+      "/home/jtao/work/work/rtk/bboConfigures/tables/gpt2_5.grd", 
+      "0"
+    ], 
+    "gptgrd_w": [
+      "/home/jtao/work/work/rtk/bboConfigures/tables/gpt2_1wA.grd"
+    ], 
+    "jpleph": [
+      "/home/jtao/work/work/rtk/bboConfigures/tables/jpleph_de405", 
+      "0"
+    ], 
+    "leapsc": [
+      "/home/jtao/work/work/rtk/bboConfigures/tables/leap.sec", 
+      "0"
+    ], 
+    "object": [
+      "session.obj_out", 
+      "0"
+    ], 
+    "ocload": [
+      "/home/jtao/work/work/rtk/bboConfigures/tables/oceanload", 
+      "0"
+    ], 
+    "pndfln": [
+      "/home/jtao/work/work/rtk/bboConfigures/tables/panda_file_name", 
+      "0"
+    ], 
+    "polut1": [
+      "poleut1", 
+      "0"
+    ], 
+    "rtconfigs": [
+      "rtconfigs.json", 
+      "0"
+    ], 
+    "satnav": [
+      "/home/jtao/work/work/rtk/bboConfigures/tables/svnav_bd3.dat", 
+      "0"
+    ], 
+    "stacoo": [
+      "gnss.sit_out", 
+      "0"
+    ], 
+    "subnet": [
+      "subnet.json"
+    ], 
+    "ut1t03": [
+      "/home/jtao/work/work/rtk/bboConfigures/tables/ut1ztide_2003", 
+      "0"
+    ], 
+    "ut1t10": [
+      "/home/jtao/work/work/rtk/bboConfigures/tables/ut1ztide_2010", 
+      "0"
+    ], 
+    "ut1t96": [
+      "/home/jtao/work/work/rtk/bboConfigures/tables/ut1ztide_1996", 
+      "0"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+	"files": "tables_vrs.json",
+	"common": {
+		"time": " 2015 11 21 3 0 0 75600",
+		"interval": " 30",
+		"freqused": "GPS:L1_L2 GLS:G1_G2 GAL:E1_E5a BDS:B1_B2",
+		"f_mutex": "../nrtk.mutex ## file lock",
+		"tracelevel":"2"
+	},
+	"path": {
+		"broad": "./brdm/brdm-DDD-0.-YY-p",
+		"obs": " ./obs/",
+		"output": "results_sav",
+		"precise": "igs",
+		"qclog": "qc",
+		"trace": "trace ## temporary files"
+	},
+	"vrs": {
+		"atom-connector": "58.49.58.150:9014",
+		"atom-timeout": "600",
+		"monitor-port": "5000",
+		"vrs-connector": "root:123@:6035",
+		"web-connector": "58.49.94.210:8090/VrsProject/vrs/data/"
+	},
+	"reqs":[
+	[ "FSGH"," -2254979.4670  5432953.2800  2457361.0630" ]
+	]
+}

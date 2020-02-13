@@ -1,0 +1,30 @@
+{
+  "common": {
+    "clktype": " CLK_POSTBRD", 
+    "cobs": " RAW", 
+    "freqused": "GPS:L1_L2 GLS:G1_G2 GAL:E1_E5a BDS:B1_B2 ## only support two frequencies", 
+    "interval": " 30", 
+    "orbtype": " ORB_POSTBRD", 
+    "time": " 2015 11 21 3 0 0 75600"
+  }, 
+  "files": "./tables.json", 
+  "path": {
+    "broad": " ./brdm/brdm-DDD-0.-YY-p", 
+    "obs": " /home/jtao/work/work/rtk/bboConfigures/obs/-YYYY-/-DDD-/", 
+    "output": "./qc"
+  }, 
+  "thresholds": {
+    "gap&short": "1200 600", 
+    "jump": "100", 
+    "pc_limit": {
+      "C": "200", 
+      "E": "100", 
+      "G": "100", 
+      "I": "100", 
+      "J": " 100", 
+      "R": "200", 
+      "S": "100"
+    }, 
+    "turboedit": "2.0 3.0 # mw lg"
+  }
+}

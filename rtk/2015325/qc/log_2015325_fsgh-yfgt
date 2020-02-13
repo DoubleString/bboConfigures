@@ -1,0 +1,219 @@
+Rinex Health Diagnose                                       COMMENT
+     30.00     30.00                                        INT AMB/DEL
+        11        41         1                              AMB MAX/TOT/NEW
+     21853        74         4                              EPO AVA/REM/NEW
+      2520         0         0                              EFF EPO/*/*
+                                                            END OF HEADER
+TIM 2015 11 21  3  0  0.0000000
+G02                                                         DEL_RESDIAG
+G05                                                         DEL_RESDIAG
+G06                                                         DEL_RESDIAG
+G09                                                         DEL_RESDIAG
+G12                                                         DEL_RESDIAG
+G13                                                         DEL_RESDIAG
+G17                                                         DEL_RESDIAG
+G25                                                         DEL_RESDIAG
+TIM 2015 11 21  3  0 30.0000000
+G02                             2015 11 21  7 31 30.0000000 AMB
+G05                             2015 11 21  8 14 30.0000000 AMB
+G06                             2015 11 21  5 49  0.0000000 AMB
+G09                             2015 11 21  3 58 30.0000000 AMB
+G12                             2015 11 21  4 38  0.0000000 AMB
+G13                             2015 11 21  8 37  0.0000000 AMB
+G17                             2015 11 21  4  6  0.0000000 AMB
+G25                             2015 11 21  5  1  0.0000000 AMB
+TIM 2015 11 21  3 10 30.0000000
+G20                             2015 11 21  3 10 30.0000000 AMB
+TIM 2015 11 21  3 11  0.0000000
+G20                                                         DEL_RESDIAG
+TIM 2015 11 21  3 11 30.0000000
+G20                                                         DEL_RESDIAG
+TIM 2015 11 21  3 12  0.0000000
+G20                                                         DEL_RESDIAG
+TIM 2015 11 21  3 12 30.0000000
+G20                                                         DEL_RESDIAG
+TIM 2015 11 21  3 13  0.0000000
+G20                             2015 11 21 11  0  0.0000000 AMB
+TIM 2015 11 21  3 15 30.0000000
+G13                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  3 58  0.0000000
+G15                             2015 11 21 10 45 30.0000000 AMB
+TIM 2015 11 21  4  6 30.0000000
+G29                             2015 11 21  8 49  0.0000000 AMB
+TIM 2015 11 21  4 38 30.0000000
+G12                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  4 39  0.0000000
+G12                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  4 41  0.0000000
+G12                                                         DEL_SHORTPIECE
+TIM 2015 11 21  4 41 30.0000000
+G12                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  4 42  0.0000000
+G12                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  4 42 30.0000000
+G12                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  4 43  0.0000000
+G12                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  4 43 30.0000000
+G12                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  4 44  0.0000000
+G12                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  4 58 30.0000000
+G30                                                         DEL_SHORTPIECE
+TIM 2015 11 21  5  4  0.0000000
+G30                             2015 11 21  6  4 30.0000000 AMB
+TIM 2015 11 21  6  1  0.0000000
+G24                                                         DEL_SHORTPIECE
+TIM 2015 11 21  6  1 30.0000000
+G24                             2015 11 21 11 34 30.0000000 AMB
+TIM 2015 11 21  6 15  0.0000000
+G21                             2015 11 21 11 43 30.0000000 AMB
+TIM 2015 11 21  6 28  0.0000000
+G18                             2015 11 21 13 22 30.0000000 AMB
+TIM 2015 11 21  8 12  0.0000000
+G14                             2015 11 21 16  3 30.0000000 AMB
+TIM 2015 11 21  8 15  0.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 15 30.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 16  0.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 16 30.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 17  0.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 17 30.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 18  0.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 18 30.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 19  0.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 19 30.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 20  0.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 20 30.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 21  0.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 21 30.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 22  0.0000000
+G05                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  8 41 30.0000000
+G12                                                         DEL_SHORTPIECE
+TIM 2015 11 21  8 43 30.0000000
+G12                             2015 11 21 12 41  0.0000000 AMB
+TIM 2015 11 21  8 45  0.0000000
+G22                             2015 11 21 14 43 30.0000000 AMB
+TIM 2015 11 21  8 46  0.0000000
+G22                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21  9 15  0.0000000
+G25                                                         DEL_SHORTPIECE
+TIM 2015 11 21  9 15 30.0000000
+G25                             2015 11 21 14 14  0.0000000 AMB
+TIM 2015 11 21 10  3 30.0000000
+G31                                                         DEL_SHORTPIECE
+TIM 2015 11 21 10 19 30.0000000
+G31                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 10 20  0.0000000
+G31                             2015 11 21 17 56 30.0000000 AMB
+TIM 2015 11 21 11 48 30.0000000
+G26                             2015 11 21 18 23 30.0000000 AMB
+TIM 2015 11 21 12  6  0.0000000
+G32                             2015 11 21 16 59 30.0000000 AMB
+TIM 2015 11 21 12 31  0.0000000
+G29                                                         DEL_SHORTPIECE
+TIM 2015 11 21 12 33 30.0000000
+G29                             2015 11 21 15 30  0.0000000 AMB
+TIM 2015 11 21 12 56  0.0000000
+G16                             2015 11 21 20  2 30.0000000 AMB
+TIM 2015 11 21 13 35 30.0000000
+G03                             2015 11 21 16 53  0.0000000 AMB
+TIM 2015 11 21 14 37  0.0000000
+G27                             2015 11 21 20 23 30.0000000 AMB
+TIM 2015 11 21 14 58 30.0000000
+G23                             2015 11 21 20  7  0.0000000 AMB
+TIM 2015 11 21 15 40 30.0000000
+G08                             2015 11 21 22 10 30.0000000 AMB
+TIM 2015 11 21 16 29 30.0000000
+G09                             2015 11 21 20 52 30.0000000 AMB
+TIM 2015 11 21 16 53 30.0000000
+G03                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 16 54  0.0000000
+G03                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 16 54 30.0000000
+G03                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 16 55  0.0000000
+G03                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 16 55 30.0000000
+G03                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 16 56  0.0000000
+G03                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 16 56 30.0000000
+G03                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 17 24 30.0000000
+G11                             2015 11 21 23 26  0.0000000 AMB
+TIM 2015 11 21 17 46  0.0000000
+G07                             2015 11 21 23 18  0.0000000 AMB
+TIM 2015 11 21 18 16 30.0000000
+G01                             2015 11 21 23 52  0.0000000 AMB
+TIM 2015 11 21 18 22  0.0000000
+G19                                                         DEL_SHORTPIECE
+TIM 2015 11 21 18 39  0.0000000
+G19                             2015 11 21 23 59 30.0000000 AMB
+TIM 2015 11 21 19  5  0.0000000
+G30                             2015 11 21 23 59 30.0000000 AMB
+TIM 2015 11 21 20  2 30.0000000
+G28                                                         DEL_SHORTPIECE
+TIM 2015 11 21 20  3  0.0000000
+G16                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 20  3 30.0000000
+G16                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 20  4  0.0000000
+G16                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 20  4 30.0000000
+G16                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 20  5  0.0000000
+G16                                                         DEL_LESSTHAN4OBS
+G28                             2015 11 21 23 59 30.0000000 AMB
+TIM 2015 11 21 20  5 30.0000000
+G16                                                         DEL_LESSTHAN4OBS
+G28                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 20  6  0.0000000
+G16                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 20  6 30.0000000
+G28                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 20 12  0.0000000
+G17                             2015 11 21 23 59 30.0000000 AMB
+TIM 2015 11 21 20 32 30.0000000
+G03                                                         DEL_SHORTPIECE
+TIM 2015 11 21 20 33 30.0000000
+G32                                                         DEL_SHORTPIECE
+TIM 2015 11 21 20 34  0.0000000
+G03                             2015 11 21 23 59 30.0000000 AMB
+TIM 2015 11 21 20 36  0.0000000
+G32                             2015 11 21 23 25 30.0000000 AMB
+TIM 2015 11 21 21 54  0.0000000
+G06                                                         DEL_SHORTPIECE
+TIM 2015 11 21 22 11 30.0000000
+G06                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 22 12  0.0000000
+G06                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 22 12 30.0000000
+G06                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 22 13  0.0000000
+G06                                                         DEL_LESSTHAN4OBS
+TIM 2015 11 21 22 13 30.0000000
+G06                             2015 11 21 23 59 30.0000000 AMB
+TIM 2015 11 21 23 32  0.0000000
+G02                                                         DEL_SHORTPIECE
+TIM 2015 11 21 23 32 30.0000000
+G02                                                         DEL_SHORTPIECE
+TIM 2015 11 21 23 33  0.0000000
+G02                                                         DEL_SHORTPIECE
+TIM 2015 11 21 23 33 30.0000000
+G02                             2015 11 21 23 59 30.0000000 AMB
